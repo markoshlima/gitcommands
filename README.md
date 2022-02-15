@@ -14,8 +14,8 @@ git submodule update --remote --merge
 git pull
 git submodule update --remote --merge
 
-**[PUSH FROM MAIN]
-**	{INSIDE EACH REPO CHANGED}
+**[PUSH FROM MAIN]**
+{INSIDE EACH REPO CHANGED}
 git add|commit|push
 {INSIDE MAIN}
 git add|commit|push
