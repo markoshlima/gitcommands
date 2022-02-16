@@ -19,3 +19,6 @@ git submodule update --remote --merge
 git add|commit|push
 {INSIDE MAIN}
 git add|commit|push
+
+**[CLONE]**
+git clone --recurse-submodules https://github.com/[user]/[project]
