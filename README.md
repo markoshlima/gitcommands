@@ -1,24 +1,24 @@
 # gitcommands
 
-**[ADD]**
+**[ADD]** <br />
 git submodule add https://github.com/[user]/[project]
 
-**[LIST]**
+**[LIST]** <br />
 git submodule--helper list
 
-**[PULL FROM MAIN]**
-{ALL REPO}
-git pull --recurse-submodules 
-git submodule update --remote --merge
-{ONE REPO}
-git pull
+**[PULL FROM MAIN]** <br />
+{ALL REPO} <br />
+git pull --recurse-submodules <br />
+git submodule update --remote --merge <br />
+{ONE REPO} <br />
+git pull <br />
 git submodule update --remote --merge
 
-**[PUSH FROM MAIN]**
-{INSIDE EACH REPO CHANGED}
-git add|commit|push
-{INSIDE MAIN}
-git add|commit|push
+**[PUSH FROM MAIN]** <br />
+{INSIDE EACH REPO CHANGED} <br />
+git add|commit|push <br />
+{INSIDE MAIN} <br />
+git add|commit|push 
 
-**[CLONE]**
+**[CLONE]** <br />
 git clone --recurse-submodules https://github.com/[user]/[project]
