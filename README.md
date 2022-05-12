@@ -16,7 +16,7 @@ git submodule update --remote --merge
 
 **[PUSH FROM MAIN]** <br />
 {INSIDE EACH REPO CHANGED} <br />
-git add|commit|push <br />
+git add|commit|push origin HEAD:{branch} <br />
 {INSIDE MAIN} <br />
 git add|commit|push 
 
